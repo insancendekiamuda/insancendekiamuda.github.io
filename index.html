@@ -78,6 +78,17 @@
         margin-left: 20px;
         margin-right: 20px;
       }
+      /* footer */
+      footer {
+        height: 50px;
+        background-color: rgb(60, 164, 219);
+        color: white;
+        margin-top: 75px;
+        text-align: center;
+      }
+      footer p {
+        padding: 15px;
+      }
     </style>
   </head>
   <body>
@@ -87,8 +98,8 @@
         <nav class="secab">
           <ul>
             <li><a href="#arca">Beranda</a></li>
-            <li>Tentang</li>
-            <li>Anggota</li>
+            <li><a href="#arcbb">Tentang</a></li>
+            <li><a href="#arcc">Anggota</a></li>
           </ul>
         </nav>
       </div>
@@ -98,7 +109,7 @@
         <article class="arca" id="arca">
           <img src="ICM 1 crop 1.jpg" alt="Logo ICM" height="270px" />
         </article>
-        <article class="arcb">
+        <article class="arcb" id="arcbb">
           <h2>Tentang</h2>
           <p id="arcb">
             Komunitas Insan Cendekia Muda sebagai penggerak pendidikan oleh generasi muda Indonesia dalam rangka mencerdaskan kehidupan bangsa yang menargetkan pendidikan untuk anak-anak dan kawula muda dengan menjadikan anak-anak sebagai
@@ -107,7 +118,7 @@
         </article>
       </div>
       <aside>
-        <article>
+        <article id="arcc">
           <h2>Anggota</h2>
           <div class="kontainer">
             <section class="bok">
@@ -135,6 +146,9 @@
           </div>
         </article>
       </aside>
+      <footer>
+        <p>&copy;ICM Digital Team</p>
+      </footer>
     </main>
   </body>
 </html>
